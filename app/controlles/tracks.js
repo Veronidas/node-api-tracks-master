@@ -1,6 +1,6 @@
 const { httpError } = require('../helpers/handleError')
 const userModel = require('../models/users')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 const URL_PUBLIC = process.env.URL_PUBLIC || '/'
 const getItems = async(req, res) => {
     try {
